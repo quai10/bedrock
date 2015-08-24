@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7081f97c92236bcc51eb91cceaa211a3",
+    "hash": "c442db3717007b42b72ecc572e07ee7e",
     "packages": [
         {
             "name": "composer/installers",
@@ -473,12 +473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/quai10/quai10-template.git",
-                "reference": "948ad1da0a10620e0ea13e940713f652d9d95a28"
+                "reference": "7501975b30b35d11a30187a80c6f22cca2bdd9d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/quai10/quai10-template/get/948ad1da0a10620e0ea13e940713f652d9d95a28.zip",
-                "reference": "948ad1da0a10620e0ea13e940713f652d9d95a28",
+                "url": "https://bitbucket.org/quai10/quai10-template/get/7501975b30b35d11a30187a80c6f22cca2bdd9d1.zip",
+                "reference": "7501975b30b35d11a30187a80c6f22cca2bdd9d1",
                 "shasum": ""
             },
             "require": {
@@ -506,7 +506,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2015-08-24 12:52:30"
+            "time": "2015-08-24 16:30:35"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -573,6 +573,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/events-manager",
+            "version": "5.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/events-manager/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/events-manager/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
