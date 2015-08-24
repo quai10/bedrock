@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0bd741b7d1685f33dbb835d22668f07b",
+    "hash": "2bc2df490d39e65a15a1d23e254ed80a",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,6 +187,47 @@
             "time": "2015-06-11 15:15:30"
         },
         {
+            "name": "quai10/quai10-template",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/quai10/quai10-template.git",
+                "reference": "948ad1da0a10620e0ea13e940713f652d9d95a28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/quai10/quai10-template/get/948ad1da0a10620e0ea13e940713f652d9d95a28.zip",
+                "reference": "948ad1da0a10620e0ea13e940713f652d9d95a28",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.21"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Rudloff",
+                    "email": "contact@rudloff.pro",
+                    "homepage": "https://www.rudloff.pro/"
+                },
+                {
+                    "name": "Damien Senger",
+                    "email": "hi@hiwelo.co",
+                    "homepage": "http://hiwelo.fr/"
+                }
+            ],
+            "description": "Quai10 WordPress Template",
+            "homepage": "https://quai10.org/",
+            "keywords": [
+                "theme",
+                "wordpress"
+            ],
+            "time": "2015-08-24 10:52:30"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.0.1",
             "source": {
@@ -256,7 +297,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "quai10/quai10-template": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

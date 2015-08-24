@@ -36,6 +36,10 @@
         {
             "type": "composer",
             "url": "http://wpackagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://bitbucket.org/quai10/quai10-template.git"
         }
     ],
     "require": {
@@ -43,7 +47,8 @@
         "composer/installers": "~1.0.12",
         "vlucas/phpdotenv": "^2.0.1",
         "johnpbloch/wordpress": "4.3",
-        "wpackagist-plugin/advanced-custom-fields": "~4.4.3"
+        "wpackagist-plugin/advanced-custom-fields": "~4.4.3",
+        "quai10/quai10-template": "dev-develop"
     },
     "extra": {
         "installer-paths": {
@@ -58,5 +63,17 @@
             ]
         },
         "wordpress-install-dir": "web/wp"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cd web/app/themes/quai10-template/ && npm install",
+            "cd web/app/themes/quai10-template/ && bower install",
+            "cd web/app/themes/quai10-template/ && gulp"
+        ],
+        "post-update-cmd": [
+            "cd web/app/themes/quai10-template/ && npm install",
+            "cd web/app/themes/quai10-template/ && bower install",
+            "cd web/app/themes/quai10-template/ && gulp"
+        ]
     }
 }
