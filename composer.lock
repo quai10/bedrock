@@ -262,10 +262,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "v2.4.5",
+            "version": "v2.4.6",
             "dist": {
                 "type": "zip",
-                "url": "https://raw.githubusercontent.com/woothemes/woocommerce-language-packs/1d8afafb5ca92f6c0ccafa491e64d5f6c7e6001d/packages/fr_FR.zip",
+                "url": "https://raw.githubusercontent.com/woothemes/woocommerce-language-packs/52c9e23cb58fee075fcd2d65dddeff885b79a2ad/packages/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -473,12 +473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/quai10/quai10-template.git",
-                "reference": "7501975b30b35d11a30187a80c6f22cca2bdd9d1"
+                "reference": "b38cf52c3657970852f4d0aaf92553a68346059e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/quai10/quai10-template/get/7501975b30b35d11a30187a80c6f22cca2bdd9d1.zip",
-                "reference": "7501975b30b35d11a30187a80c6f22cca2bdd9d1",
+                "url": "https://bitbucket.org/quai10/quai10-template/get/b38cf52c3657970852f4d0aaf92553a68346059e.zip",
+                "reference": "b38cf52c3657970852f4d0aaf92553a68346059e",
                 "shasum": ""
             },
             "require": {
@@ -506,7 +506,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2015-08-24 16:30:35"
+            "time": "2015-08-28 13:36:21"
         },
         {
             "name": "vlucas/phpdotenv",
