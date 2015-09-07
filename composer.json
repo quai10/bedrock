@@ -39,7 +39,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://bitbucket.org/quai10/quai10-template.git"
+            "url": "https://github.com/quai10/quai10-template.git"
         },
         {
             "type": "composer",
