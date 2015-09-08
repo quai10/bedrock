@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c442db3717007b42b72ecc572e07ee7e",
+    "hash": "f6847950aa9f9a2299d2abc801fda1d0",
     "packages": [
         {
             "name": "composer/installers",
@@ -469,22 +469,27 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "dev-develop",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://bitbucket.org/quai10/quai10-template.git",
-                "reference": "b38cf52c3657970852f4d0aaf92553a68346059e"
+                "url": "https://github.com/quai10/quai10-template.git",
+                "reference": "5a3f6b72e57864a7a4156ee2ddaefd3a62175673"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/quai10/quai10-template/get/b38cf52c3657970852f4d0aaf92553a68346059e.zip",
-                "reference": "b38cf52c3657970852f4d0aaf92553a68346059e",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/5a3f6b72e57864a7a4156ee2ddaefd3a62175673",
+                "reference": "5a3f6b72e57864a7a4156ee2ddaefd3a62175673",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0.21"
             },
             "type": "wordpress-theme",
+            "autoload": {
+                "psr-4": {
+                    "Quai10\\": "lib/"
+                }
+            },
             "license": [
                 "GPL-3.0"
             ],
@@ -506,7 +511,11 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2015-08-28 13:36:21"
+            "support": {
+                "source": "https://github.com/quai10/quai10-template/tree/0.1.0",
+                "issues": "https://github.com/quai10/quai10-template/issues"
+            },
+            "time": "2015-09-08 12:27:13"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -575,6 +584,46 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
+            "name": "wpackagist-plugin/advanced-custom-fields-contact-form-7-field",
+            "version": "1.1.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields-contact-form-7-field/",
+                "reference": "tags/1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields-contact-form-7-field.1.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields-contact-form-7-field/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "4.2.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/4.2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
             "name": "wpackagist-plugin/events-manager",
             "version": "5.6",
             "source": {
@@ -618,9 +667,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "quai10/quai10-template": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

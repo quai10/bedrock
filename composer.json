@@ -39,7 +39,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://bitbucket.org/quai10/quai10-template.git"
+            "url": "https://github.com/quai10/quai10-template.git"
         },
         {
             "type": "composer",
@@ -52,10 +52,12 @@
         "vlucas/phpdotenv": "^2.0.1",
         "johnpbloch/wordpress": "~4.3",
         "wpackagist-plugin/advanced-custom-fields": "~4.4.3",
-        "quai10/quai10-template": "dev-develop",
+        "quai10/quai10-template": "~0.1.0",
         "wpackagist-plugin/wordpress-importer": "~0.6.1",
         "koodimonni-language/fr_FR": "~4.3",
-        "wpackagist-plugin/events-manager": "~5.6"
+        "wpackagist-plugin/events-manager": "~5.6",
+        "wpackagist-plugin/contact-form-7": "~4.2.2",
+        "wpackagist-plugin/advanced-custom-fields-contact-form-7-field": "~1.1.0"
     },
     "extra": {
         "installer-paths": {
@@ -78,14 +80,18 @@
     },
     "scripts": {
         "post-install-cmd": [
+            "rsync -azh node_modules_cache/ web/app/themes/quai10-template/node_modules/ || true",
             "cd web/app/themes/quai10-template/ && npm install",
             "cd web/app/themes/quai10-template/ && bower install",
-            "cd web/app/themes/quai10-template/ && gulp"
+            "cd web/app/themes/quai10-template/ && gulp",
+            "rsync -azh web/app/themes/quai10-template/node_modules/ node_modules_cache/"
         ],
         "post-update-cmd": [
+            "rsync -azh node_modules_cache/ web/app/themes/quai10-template/node_modules || true",
             "cd web/app/themes/quai10-template/ && npm install",
             "cd web/app/themes/quai10-template/ && bower install",
-            "cd web/app/themes/quai10-template/ && gulp"
+            "cd web/app/themes/quai10-template/ && gulp",
+            "rsync -azh web/app/themes/quai10-template/node_modules/ node_modules_cache/"
         ]
     }
 }
