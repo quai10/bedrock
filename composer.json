@@ -80,14 +80,18 @@
     },
     "scripts": {
         "post-install-cmd": [
+            "rsync -azh node_modules_cache/ web/app/themes/quai10-template/node_modules/ || true",
             "cd web/app/themes/quai10-template/ && npm install",
             "cd web/app/themes/quai10-template/ && bower install",
-            "cd web/app/themes/quai10-template/ && gulp"
+            "cd web/app/themes/quai10-template/ && gulp",
+            "rsync -azh web/app/themes/quai10-template/node_modules/ node_modules_cache/"
         ],
         "post-update-cmd": [
+            "rsync -azh node_modules_cache/ web/app/themes/quai10-template/node_modules || true",
             "cd web/app/themes/quai10-template/ && npm install",
             "cd web/app/themes/quai10-template/ && bower install",
-            "cd web/app/themes/quai10-template/ && gulp"
+            "cd web/app/themes/quai10-template/ && gulp",
+            "rsync -azh web/app/themes/quai10-template/node_modules/ node_modules_cache/"
         ]
     }
 }

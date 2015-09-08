@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cf8c8ee63c7b070ad3ea61493e27d853",
+    "hash": "c860c60b6117035edfed4842b35414f4",
     "packages": [
         {
             "name": "composer/installers",
@@ -473,12 +473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "0582647143d41755a188ba6e2a1e433da6d195c3"
+                "reference": "b850c711e28116f1962ee2756b59590364774c18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/0582647143d41755a188ba6e2a1e433da6d195c3",
-                "reference": "0582647143d41755a188ba6e2a1e433da6d195c3",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/b850c711e28116f1962ee2756b59590364774c18",
+                "reference": "b850c711e28116f1962ee2756b59590364774c18",
                 "shasum": ""
             },
             "require": {
@@ -515,7 +515,7 @@
                 "source": "https://github.com/quai10/quai10-template/tree/develop",
                 "issues": "https://github.com/quai10/quai10-template/issues"
             },
-            "time": "2015-09-08 00:54:50"
+            "time": "2015-09-08 01:31:53"
         },
         {
             "name": "vlucas/phpdotenv",
