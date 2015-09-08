@@ -473,12 +473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "266037f25e8f8200ae42320eb02327a29a43b09d"
+                "reference": "0582647143d41755a188ba6e2a1e433da6d195c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/266037f25e8f8200ae42320eb02327a29a43b09d",
-                "reference": "266037f25e8f8200ae42320eb02327a29a43b09d",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/0582647143d41755a188ba6e2a1e433da6d195c3",
+                "reference": "0582647143d41755a188ba6e2a1e433da6d195c3",
                 "shasum": ""
             },
             "require": {
@@ -515,7 +515,7 @@
                 "source": "https://github.com/quai10/quai10-template/tree/develop",
                 "issues": "https://github.com/quai10/quai10-template/issues"
             },
-            "time": "2015-09-07 23:53:31"
+            "time": "2015-09-08 00:54:50"
         },
         {
             "name": "vlucas/phpdotenv",
