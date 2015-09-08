@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c860c60b6117035edfed4842b35414f4",
+    "hash": "f6847950aa9f9a2299d2abc801fda1d0",
     "packages": [
         {
             "name": "composer/installers",
@@ -469,16 +469,16 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "dev-develop",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "cf947ce5268a77edf01ef73e2e43cd24599aeaec"
+                "reference": "5a3f6b72e57864a7a4156ee2ddaefd3a62175673"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/cf947ce5268a77edf01ef73e2e43cd24599aeaec",
-                "reference": "cf947ce5268a77edf01ef73e2e43cd24599aeaec",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/5a3f6b72e57864a7a4156ee2ddaefd3a62175673",
+                "reference": "5a3f6b72e57864a7a4156ee2ddaefd3a62175673",
                 "shasum": ""
             },
             "require": {
@@ -512,10 +512,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/quai10/quai10-template/tree/develop",
+                "source": "https://github.com/quai10/quai10-template/tree/0.1.0",
                 "issues": "https://github.com/quai10/quai10-template/issues"
             },
-            "time": "2015-09-08 12:17:41"
+            "time": "2015-09-08 12:27:13"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -667,9 +667,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "quai10/quai10-template": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
