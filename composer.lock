@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f6847950aa9f9a2299d2abc801fda1d0",
+    "hash": "b13ba481d075d7e4e57c78449d7057c7",
     "packages": [
         {
             "name": "composer/installers",
@@ -469,16 +469,16 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "5a3f6b72e57864a7a4156ee2ddaefd3a62175673"
+                "reference": "d2d0d1f134b54022e66d5b3107c3afd6919807fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/5a3f6b72e57864a7a4156ee2ddaefd3a62175673",
-                "reference": "5a3f6b72e57864a7a4156ee2ddaefd3a62175673",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/d2d0d1f134b54022e66d5b3107c3afd6919807fa",
+                "reference": "d2d0d1f134b54022e66d5b3107c3afd6919807fa",
                 "shasum": ""
             },
             "require": {
@@ -512,10 +512,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/quai10/quai10-template/tree/0.1.0",
+                "source": "https://github.com/quai10/quai10-template/tree/0.1.1",
                 "issues": "https://github.com/quai10/quai10-template/issues"
             },
-            "time": "2015-09-08 12:27:13"
+            "time": "2015-09-09 20:48:27"
         },
         {
             "name": "vlucas/phpdotenv",
