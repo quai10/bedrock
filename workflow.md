@@ -6,8 +6,8 @@
 
 ###In [bedrock](https://github.com/quai10/bedrock)
  1. `composer update`
- 1. Commit the new generated *composer.lock*
- 1. Tag a new version (in **quai10** branch)
+ 1. Commit the newly generated *composer.lock*
+ 1. Tag a new version (in **quai10** branch) with a **prefixed** semantic versioning number (quai-0.1.x)
  1. Push to GitHub
 
 ###On quai10.org
