@@ -38,10 +38,6 @@
             "url": "http://wpackagist.org"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/quai10/quai10-template.git"
-        },
-        {
             "type": "composer",
             "url": "http://languages.koodimonni.fi"
         }
