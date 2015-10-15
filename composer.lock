@@ -470,16 +470,16 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "d94ce277080a49b430344a90b9ab9d6ac0a5cd06"
+                "reference": "6146a0d31d4b4073c70e244fdba046030e56cfb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/d94ce277080a49b430344a90b9ab9d6ac0a5cd06",
-                "reference": "d94ce277080a49b430344a90b9ab9d6ac0a5cd06",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/6146a0d31d4b4073c70e244fdba046030e56cfb7",
+                "reference": "6146a0d31d4b4073c70e244fdba046030e56cfb7",
                 "shasum": ""
             },
             "require": {
@@ -513,7 +513,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2015-09-13 21:59:11"
+            "time": "2015-10-15 17:00:30"
         },
         {
             "name": "vlucas/phpdotenv",
