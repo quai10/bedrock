@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea6da44d232b394c38d13e54a202561d",
+    "hash": "3c9fa42768154a117b9141d5a7bac9f2",
+    "content-hash": "6f8d3ae17d802c4a2edf426761d0defc",
     "packages": [
         {
             "name": "composer/installers",
@@ -103,16 +104,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.3",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7"
+                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
-                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
+                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +137,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-08-18 18:16:11"
+            "time": "2015-09-15 15:01:23"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -188,10 +189,10 @@
         },
         {
             "name": "koodimonni-language/fr_fr",
-            "version": "4.3",
+            "version": "4.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.3/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.3.1/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -220,10 +221,10 @@
         },
         {
             "name": "koodimonni-plugin-language/akismet-fr_fr",
-            "version": "3.0",
+            "version": "3.1.5",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/akismet/3.0/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/akismet/3.1.5/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -262,10 +263,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "v2.4.6",
+            "version": "v2.4.7",
             "dist": {
                 "type": "zip",
-                "url": "https://raw.githubusercontent.com/woothemes/woocommerce-language-packs/52c9e23cb58fee075fcd2d65dddeff885b79a2ad/packages/fr_FR.zip",
+                "url": "https://raw.githubusercontent.com/woothemes/woocommerce-language-packs/a2caa5432e4acde3558179827b4eed748032b70d/packages/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -469,16 +470,16 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "d94ce277080a49b430344a90b9ab9d6ac0a5cd06"
+                "reference": "6146a0d31d4b4073c70e244fdba046030e56cfb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/d94ce277080a49b430344a90b9ab9d6ac0a5cd06",
-                "reference": "d94ce277080a49b430344a90b9ab9d6ac0a5cd06",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/6146a0d31d4b4073c70e244fdba046030e56cfb7",
+                "reference": "6146a0d31d4b4073c70e244fdba046030e56cfb7",
                 "shasum": ""
             },
             "require": {
@@ -490,6 +491,7 @@
                     "Quai10\\": "lib/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0"
             ],
@@ -511,11 +513,7 @@
                 "theme",
                 "wordpress"
             ],
-            "support": {
-                "source": "https://github.com/quai10/quai10-template/tree/0.1.3",
-                "issues": "https://github.com/quai10/quai10-template/issues"
-            },
-            "time": "2015-09-13 21:59:11"
+            "time": "2015-10-15 17:00:30"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -569,11 +567,11 @@
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "trunk"
+                "reference": "tags/4.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -605,15 +603,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.2.2",
+            "version": "4.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.2.2"
+                "reference": "tags/4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -625,15 +623,15 @@
         },
         {
             "name": "wpackagist-plugin/events-manager",
-            "version": "5.6",
+            "version": "5.6.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/events-manager/",
-                "reference": "trunk"
+                "reference": "tags/5.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.zip",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.5.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
