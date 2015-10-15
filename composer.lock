@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d35472c06a78490fc44d644226cf41b",
+    "hash": "3c9fa42768154a117b9141d5a7bac9f2",
+    "content-hash": "6f8d3ae17d802c4a2edf426761d0defc",
     "packages": [
         {
             "name": "composer/installers",
@@ -220,10 +221,10 @@
         },
         {
             "name": "koodimonni-plugin-language/akismet-fr_fr",
-            "version": "3.0",
+            "version": "3.1.5",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/akismet/3.0/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/akismet/3.1.5/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -262,10 +263,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "v2.4.6",
+            "version": "v2.4.7",
             "dist": {
                 "type": "zip",
-                "url": "https://raw.githubusercontent.com/woothemes/woocommerce-language-packs/52c9e23cb58fee075fcd2d65dddeff885b79a2ad/packages/fr_FR.zip",
+                "url": "https://raw.githubusercontent.com/woothemes/woocommerce-language-packs/a2caa5432e4acde3558179827b4eed748032b70d/packages/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -566,11 +567,11 @@
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "trunk"
+                "reference": "tags/4.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -602,15 +603,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.2.2",
+            "version": "4.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.2.2"
+                "reference": "tags/4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
