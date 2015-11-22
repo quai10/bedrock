@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3c9fa42768154a117b9141d5a7bac9f2",
-    "content-hash": "6f8d3ae17d802c4a2edf426761d0defc",
+    "hash": "927ca962d9e877dd8d415a54f365b6e2",
+    "content-hash": "5425247390d322b90c1abb9df19c032d",
     "packages": [
         {
             "name": "composer/installers",
@@ -266,7 +266,7 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "v2.4.7",
+            "version": "v2.4.10",
             "dist": {
                 "type": "zip",
                 "url": "https://raw.githubusercontent.com/woothemes/woocommerce-language-packs/a2caa5432e4acde3558179827b4eed748032b70d/packages/fr_FR.zip",
@@ -473,16 +473,16 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "0.1.4",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "6146a0d31d4b4073c70e244fdba046030e56cfb7"
+                "reference": "bb5f97c218e3aff497abbb8d4b83f88a53d8fc2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/6146a0d31d4b4073c70e244fdba046030e56cfb7",
-                "reference": "6146a0d31d4b4073c70e244fdba046030e56cfb7",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/bb5f97c218e3aff497abbb8d4b83f88a53d8fc2a",
+                "reference": "bb5f97c218e3aff497abbb8d4b83f88a53d8fc2a",
                 "shasum": ""
             },
             "require": {
@@ -516,7 +516,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2015-10-15 17:00:30"
+            "time": "2015-11-22 15:48:23"
         },
         {
             "name": "vlucas/phpdotenv",
