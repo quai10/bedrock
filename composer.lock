@@ -631,15 +631,15 @@
         },
         {
             "name": "wpackagist-plugin/events-manager",
-            "version": "5.6.1",
+            "version": "5.6.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/events-manager/",
-                "reference": "tags/5.6.1"
+                "reference": "tags/5.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.5.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.5.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
