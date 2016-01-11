@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c2ba4c2475095db906cf3d88f9a3b568",
-    "content-hash": "18e504f8fdd6d8fea29a74e3f4339545",
+    "hash": "fefaeed5a5536ccfab6b6f653478265a",
+    "content-hash": "75de6a480d956e32c0f126087bf9485e",
     "packages": [
         {
             "name": "composer/installers",
@@ -630,6 +630,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields-contact-form-7-field/"
+        },
+        {
+            "name": "wpackagist-plugin/all-in-one-seo-pack",
+            "version": "2.2.7.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/all-in-one-seo-pack/",
+                "reference": "tags/2.2.7.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.2.7.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",

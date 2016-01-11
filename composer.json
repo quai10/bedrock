@@ -53,7 +53,8 @@
         "koodimonni-language/fr_FR": "~4.3",
         "wpackagist-plugin/events-manager": "~5.6",
         "wpackagist-plugin/contact-form-7": "~4.3.0",
-        "wpackagist-plugin/advanced-custom-fields-contact-form-7-field": "~1.1.0"
+        "wpackagist-plugin/advanced-custom-fields-contact-form-7-field": "~1.1.0",
+        "wpackagist-plugin/all-in-one-seo-pack": "~2.2.7.5"
     },
     "extra": {
         "installer-paths": {
