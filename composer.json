@@ -1,80 +1,75 @@
 {
-    "name": "quai10/quai10-wordpress",
-    "type": "project",
-    "license": "MIT",
-    "description": "WordPress setup for quai10.org",
-    "homepage": "https://quai10.org/",
-    "authors": [
-        {
-            "name": "Pierre Rudloff",
-            "email": "contact@rudloff.pro",
-            "homepage": "https://www.rudloff.pro/"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/quai10/quai10-wordpress/issues",
-        "source": "https://github.com/quai10/quai10-wordpress",
-        "email": "webmaster@quai10.org"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://wpackagist.org"
-        },
-        {
-            "type": "composer",
-            "url": "http://languages.koodimonni.fi"
-        }
-    ],
-    "replace": {
-        "roots/bedrock": "*"
-    },
-    "require": {
-        "composer/installers": "~1.0.12",
-        "vlucas/phpdotenv": "~2.2.0",
-        "johnpbloch/wordpress": "~4.3",
-        "wpackagist-plugin/advanced-custom-fields": "~4.4.3",
-        "quai10/quai10-template": "~0.2.0",
-        "wpackagist-plugin/wordpress-importer": "~0.6.1",
-        "koodimonni-language/fr_FR": "~4.3",
-        "wpackagist-plugin/events-manager": "~5.6",
-        "wpackagist-plugin/contact-form-7": "~4.3.0",
-        "wpackagist-plugin/advanced-custom-fields-contact-form-7-field": "~1.1.0",
-        "wpackagist-plugin/all-in-one-seo-pack": "~2.2.7.5"
-    },
-    "extra": {
-        "installer-paths": {
-            "web/app/mu-plugins/{$name}/": [
-                "type:wordpress-muplugin"
-            ],
-            "web/app/plugins/{$name}/": [
-                "type:wordpress-plugin"
-            ],
-            "web/app/themes/{$name}/": [
-                "type:wordpress-theme"
-            ]
-        },
-        "wordpress-install-dir": "web/wp",
-        "dropin-paths": {
-            "web/app/languages/": ["vendor:koodimonni-language"],
-            "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
-            "web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
-          }
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "rsync -azh node_modules_cache/ web/app/themes/quai10-template/node_modules/ || true",
-            "cd web/app/themes/quai10-template/ && npm install",
-            "cd web/app/themes/quai10-template/ && bower install",
-            "cd web/app/themes/quai10-template/ && gulp",
-            "rsync -azh web/app/themes/quai10-template/node_modules/ node_modules_cache/"
-        ],
-        "post-update-cmd": [
-            "rsync -azh node_modules_cache/ web/app/themes/quai10-template/node_modules || true",
-            "cd web/app/themes/quai10-template/ && npm install",
-            "cd web/app/themes/quai10-template/ && bower install",
-            "cd web/app/themes/quai10-template/ && gulp",
-            "rsync -azh web/app/themes/quai10-template/node_modules/ node_modules_cache/"
-        ]
-    }
+	"name": "quai10/quai10-wordpress",
+	"type": "project",
+	"license": "MIT",
+	"description": "WordPress setup for quai10.org",
+	"homepage": "https://quai10.org/",
+	"authors": [{
+		"name": "Pierre Rudloff",
+		"email": "contact@rudloff.pro",
+		"homepage": "https://www.rudloff.pro/"
+	}],
+	"support": {
+		"issues": "https://github.com/quai10/quai10-wordpress/issues",
+		"source": "https://github.com/quai10/quai10-wordpress",
+		"email": "webmaster@quai10.org"
+	},
+	"repositories": [{
+		"type": "composer",
+		"url": "http://wpackagist.org"
+	}, {
+		"type": "composer",
+		"url": "http://languages.koodimonni.fi"
+	}],
+	"replace": {
+		"roots/bedrock": "*"
+	},
+	"require": {
+		"composer/installers": "~1.0.12",
+		"vlucas/phpdotenv": "~2.2.0",
+		"johnpbloch/wordpress": "~4.3",
+		"wpackagist-plugin/advanced-custom-fields": "~4.4.3",
+		"quai10/quai10-template": "~0.2.0",
+		"wpackagist-plugin/wordpress-importer": "~0.6.1",
+		"koodimonni-language/fr_FR": "~4.3",
+		"wpackagist-plugin/events-manager": "~5.6",
+		"wpackagist-plugin/contact-form-7": "~4.3.0",
+		"wpackagist-plugin/advanced-custom-fields-contact-form-7-field": "~1.1.0",
+		"wpackagist-plugin/all-in-one-seo-pack": "~2.2.7.5"
+	},
+	"extra": {
+		"installer-paths": {
+			"web/app/mu-plugins/{$name}/": [
+				"type:wordpress-muplugin"
+			],
+			"web/app/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			],
+			"web/app/themes/{$name}/": [
+				"type:wordpress-theme"
+			]
+		},
+		"wordpress-install-dir": "web/wp",
+		"dropin-paths": {
+			"web/app/languages/": ["vendor:koodimonni-language"],
+			"web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+			"web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
+		}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"rsync -azh node_modules_cache/ web/app/themes/quai10-template/node_modules/ || true",
+			"cd web/app/themes/quai10-template/ && npm install",
+			"cd web/app/themes/quai10-template/ && bower install",
+			"cd web/app/themes/quai10-template/ && gulp",
+			"rsync -azh web/app/themes/quai10-template/node_modules/ node_modules_cache/"
+		],
+		"post-update-cmd": [
+			"rsync -azh node_modules_cache/ web/app/themes/quai10-template/node_modules || true",
+			"cd web/app/themes/quai10-template/ && npm install",
+			"cd web/app/themes/quai10-template/ && bower install",
+			"cd web/app/themes/quai10-template/ && gulp",
+			"rsync -azh web/app/themes/quai10-template/node_modules/ node_modules_cache/"
+		]
+	}
 }
