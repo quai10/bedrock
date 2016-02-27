@@ -4,10 +4,10 @@
  1. Tag a new version (in **master** branch) with a semantic versioning number (0.1.x)
  1. Push to GitHub
 
-###In [bedrock](https://github.com/quai10/bedrock)
+###In [quai10-wordpress](https://github.com/quai10/quai10-wordpress)
  1. `composer update`
  1. Commit the newly generated *composer.lock*
- 1. Tag a new version (in **quai10** branch) with a **prefixed** semantic versioning number (quai-0.1.x)
+ 1. Tag a new version (in **master** branch) with a semantic versioning number (0.1.x)
  1. Push to GitHub
 
 ###On quai10.org

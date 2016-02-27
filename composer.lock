@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "238cdfbd1195ac3cbcc8082927c350a4",
-    "content-hash": "2c153763a10cb8153c428f3b3d51bfb6",
+    "hash": "d29e4cd73c099759898f797620c5eb33",
+    "content-hash": "20ed8f898b47d4bf25242669c1455be3",
     "packages": [
         {
             "name": "composer/installers",
@@ -635,6 +635,26 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields-contact-form-7-field/"
         },
         {
+            "name": "wpackagist-plugin/all-in-one-seo-pack",
+            "version": "2.2.7.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/all-in-one-seo-pack/",
+                "reference": "tags/2.2.7.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.2.7.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+        },
+        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "4.3.1",
             "source": {
@@ -703,8 +723,6 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=5.4"
-    },
+    "platform": [],
     "platform-dev": []
 }
