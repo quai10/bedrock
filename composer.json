@@ -30,7 +30,8 @@
         "forum": "https://discourse.roots.io/category/bedrock"
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "secure-http": false
     },
     "repositories": [
         {
@@ -48,7 +49,7 @@
         "vlucas/phpdotenv": "^2.0.1",
         "johnpbloch/wordpress": "~4.3",
         "wpackagist-plugin/advanced-custom-fields": "~4.4.3",
-        "quai10/quai10-template": "~0.1.2",
+        "quai10/quai10-template": "dev-develop",
         "wpackagist-plugin/wordpress-importer": "~0.6.1",
         "koodimonni-language/fr_FR": "~4.3",
         "wpackagist-plugin/events-manager": "~5.6",
