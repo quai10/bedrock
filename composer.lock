@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d29e4cd73c099759898f797620c5eb33",
-    "content-hash": "20ed8f898b47d4bf25242669c1455be3",
+    "hash": "10e43b940dd22e6dc54d17af301b5fe0",
+    "content-hash": "adf4a8dbf734997d378bec391c896be4",
     "packages": [
         {
             "name": "composer/installers",
@@ -498,16 +498,16 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "dev-develop",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "06d4b11b3cdefcc633cdca1ac25961e85ab93164"
+                "reference": "f581cc3eea925023089e2e57b7af5e1525ea582b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/06d4b11b3cdefcc633cdca1ac25961e85ab93164",
-                "reference": "06d4b11b3cdefcc633cdca1ac25961e85ab93164",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/f581cc3eea925023089e2e57b7af5e1525ea582b",
+                "reference": "f581cc3eea925023089e2e57b7af5e1525ea582b",
                 "shasum": ""
             },
             "require": {
@@ -541,7 +541,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-02-27 10:58:56"
+            "time": "2016-02-29 19:35:20"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -718,9 +718,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "quai10/quai10-template": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
