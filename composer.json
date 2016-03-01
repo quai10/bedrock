@@ -16,17 +16,16 @@
 	},
 	"repositories": [{
 		"type": "composer",
-		"url": "http://wpackagist.org"
+		"url": "https://wpackagist.org"
 	}, {
 		"type": "composer",
-		"url": "http://languages.koodimonni.fi"
+		"url": "https://wp-languages.github.io/"
 	}],
 	"replace": {
 		"roots/bedrock": "*"
 	},
 	"config": {
-		"preferred-install": "dist",
-		"secure-http": false
+		"preferred-install": "dist"
 	},
 	"require": {
 		"composer/installers": "~1.0.12",
