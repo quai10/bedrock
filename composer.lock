@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dc36c4756afced9e16e1a4078ec2700f",
-    "content-hash": "6757f30d6171039571f9cc8be7faccaa",
+    "hash": "5ed8d0a2a520d9970df2bb50c1114447",
+    "content-hash": "adc3ba4a67339d7d4684afe0d801cf24",
     "packages": [
         {
             "name": "composer/installers",
@@ -500,20 +500,23 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "0.2.3",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "633aa8506bcdca74cf493c353d0587201c365442"
+                "reference": "bf0a980226b5885904bb25df05480979aa2d288b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/633aa8506bcdca74cf493c353d0587201c365442",
-                "reference": "633aa8506bcdca74cf493c353d0587201c365442",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/bf0a980226b5885904bb25df05480979aa2d288b",
+                "reference": "bf0a980226b5885904bb25df05480979aa2d288b",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0.21"
+            },
+            "require-dev": {
+                "symfony/var-dumper": "~3.0.0"
             },
             "type": "wordpress-theme",
             "autoload": {
@@ -543,7 +546,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-03-01 13:27:23"
+            "time": "2016-04-25 13:52:43"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -719,7 +722,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "quai10/quai10-template": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
