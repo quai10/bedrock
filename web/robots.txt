@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /wp/wp-admin/
+Disallow: /preprod/
+Allow: /wp/wp-admin/admin-ajax.php
+
+Sitemap: https://quai10.org/sitemap.xml.gz
