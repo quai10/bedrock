@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4524e454a5fab51a9395e94489a197c6",
-    "content-hash": "4c2c95c262a53722f8736542e6182fdb",
+    "hash": "47cc3641f0b96495552b33e9c4192d37",
+    "content-hash": "7a57d95f2be413faa69e9d8f34dbf0a1",
     "packages": [
         {
             "name": "composer/installers",
@@ -660,15 +660,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.4.2",
+            "version": "4.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.4.2"
+                "reference": "tags/4.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
