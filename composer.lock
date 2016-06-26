@@ -109,16 +109,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.2",
+            "version": "4.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "e992d00a34ea84d55c80023d27d5bcb839069add"
+                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e992d00a34ea84d55c80023d27d5bcb839069add",
-                "reference": "e992d00a34ea84d55c80023d27d5bcb839069add",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
+                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +142,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-05-06 18:16:20"
+            "time": "2016-06-21 16:31:21"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -194,10 +194,10 @@
         },
         {
             "name": "koodimonni-language/fr_fr",
-            "version": "4.5.2",
+            "version": "4.5.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.5.2/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.5.3/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -269,10 +269,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "2.5.5",
+            "version": "2.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.5.5/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.1/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -504,12 +504,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "d1a8778547a7245db4012e079430167dc2dfcd59"
+                "reference": "4471a9cbf92aaaa0408c7fe032905ca98a7d1277"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/d1a8778547a7245db4012e079430167dc2dfcd59",
-                "reference": "d1a8778547a7245db4012e079430167dc2dfcd59",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/4471a9cbf92aaaa0408c7fe032905ca98a7d1277",
+                "reference": "4471a9cbf92aaaa0408c7fe032905ca98a7d1277",
                 "shasum": ""
             },
             "require": {
@@ -546,7 +546,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-06-06 21:08:56"
+            "time": "2016-06-26 16:35:19"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -640,15 +640,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.4.2",
+            "version": "2.3.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.4.2"
+                "reference": "tags/2.3.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
