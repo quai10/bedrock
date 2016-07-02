@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "53adfdf3ddc32b9d6c70d8e7c02f41f0",
-    "content-hash": "3fefe415c43dec6c71e58d29d13ef6bb",
+    "hash": "d28d937329f8468ddb15b304f3e1c900",
+    "content-hash": "b60937af4dd2940964ffc4e750cb83e9",
     "packages": [
         {
             "name": "composer/installers",
@@ -269,10 +269,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "2.6.1",
+            "version": "2.6.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.1/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.2/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -500,16 +500,16 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "dev-develop",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "4471a9cbf92aaaa0408c7fe032905ca98a7d1277"
+                "reference": "b5560b23c89b1774bf028a470fddfe4858dee559"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/4471a9cbf92aaaa0408c7fe032905ca98a7d1277",
-                "reference": "4471a9cbf92aaaa0408c7fe032905ca98a7d1277",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/b5560b23c89b1774bf028a470fddfe4858dee559",
+                "reference": "b5560b23c89b1774bf028a470fddfe4858dee559",
                 "shasum": ""
             },
             "require": {
@@ -546,7 +546,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-06-26 16:35:19"
+            "time": "2016-07-02 23:21:57"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -640,15 +640,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.5.1",
+            "version": "2.3.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.5.1"
+                "reference": "tags/2.3.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.5.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -722,9 +722,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "quai10/quai10-template": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
