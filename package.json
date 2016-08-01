@@ -1,0 +1,10 @@
+{
+    "name": "quai10-wordpress",
+    "repository": "https://github.com/quai10/quai10-wordpress.git",
+    "license": "MIT",
+	"devDependencies": {
+		"grunt": "~1.0.1",
+		"grunt-jslint": "~1.1.14",
+		"grunt-shipit": "~1.0.0"
+	}
+}
