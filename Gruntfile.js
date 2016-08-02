@@ -4,6 +4,7 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-jslint');
     grunt.loadNpmTasks('grunt-shipit');
+    grunt.loadNpmTasks('shipit-git-update');
 
     grunt.initConfig({
         jslint: {
@@ -12,19 +13,22 @@ module.exports = function (grunt) {
             }
         },
         shipit: {
-            quai10: {
-                servers: 'quai10@quai10.org'
+            options: {
+                servers: 'quai10@quai10.org',
+                postUpdateCmd: 'composer install --no-dev'
+            },
+            staging: {
+                deployTo: '/home/quai10/public_html/preprod/',
+                branch: 'develop'
+            },
+            prod: {
+                deployTo: '/home/quai10/public_html/wordpress/',
+                branch: 'master'
             }
         }
     });
 
     grunt.registerTask('lint', ['jslint']);
-    grunt.registerTask('pull:staging', function () {
-        grunt.shipit.remote('cd public_html/preprod/; git pull; composer install --no-dev', this.async());
-    });
-    grunt.registerTask('pull:prod', function () {
-        grunt.shipit.remote('cd public_html/wordpress/; git pull; composer install --no-dev', this.async());
-    });
-    grunt.registerTask('staging', ['shipit:quai10', 'pull:staging']);
-    grunt.registerTask('prod', ['shipit:quai10', 'pull:prod']);
+    grunt.registerTask('staging', ['shipit:staging', 'update']);
+    grunt.registerTask('prod', ['shipit:prod', 'update']);
 };
