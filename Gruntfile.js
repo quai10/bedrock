@@ -5,6 +5,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-jslint');
     grunt.loadNpmTasks('grunt-shipit');
     grunt.loadNpmTasks('shipit-git-update');
+    grunt.loadNpmTasks('shipit-composer-simple');
 
     grunt.initConfig({
         jslint: {
@@ -15,7 +16,9 @@ module.exports = function (grunt) {
         shipit: {
             options: {
                 servers: 'quai10@quai10.org',
-                postUpdateCmd: 'composer install --no-dev'
+                composer: {
+                    noDev: true
+                }
             },
             staging: {
                 deployTo: '/home/quai10/public_html/preprod/',
@@ -29,6 +32,6 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('lint', ['jslint']);
-    grunt.registerTask('staging', ['shipit:staging', 'update']);
-    grunt.registerTask('prod', ['shipit:prod', 'update']);
+    grunt.registerTask('staging', ['shipit:staging', 'update', 'composer:install']);
+    grunt.registerTask('prod', ['shipit:prod', 'update', 'composer:install']);
 };
