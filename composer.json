@@ -1,62 +1,73 @@
 {
-	"name": "quai10/quai10-wordpress",
-	"type": "project",
-	"license": "MIT",
-	"description": "WordPress setup for quai10.org",
-	"homepage": "https://quai10.org/",
-	"authors": [{
-		"name": "Pierre Rudloff",
-		"email": "contact@rudloff.pro",
-		"homepage": "https://www.rudloff.pro/"
-	}],
-	"support": {
-		"issues": "https://github.com/quai10/quai10-wordpress/issues",
-		"source": "https://github.com/quai10/quai10-wordpress",
-		"email": "webmaster@quai10.org"
-	},
-	"repositories": [{
-		"type": "composer",
-		"url": "https://wpackagist.org"
-	}, {
-		"type": "composer",
-		"url": "https://wp-languages.github.io/"
-	}],
-	"replace": {
-		"roots/bedrock": "*"
-	},
-	"config": {
-		"preferred-install": "dist"
-	},
-	"require": {
-		"composer/installers": "~1.0.12",
-		"vlucas/phpdotenv": "~2.2.0",
-		"johnpbloch/wordpress": "~4.5.2",
-		"wpackagist-plugin/advanced-custom-fields": "~4.4.3",
-		"quai10/quai10-template": "~0.3.0",
-		"wpackagist-plugin/wordpress-importer": "~0.6.1",
-		"koodimonni-language/fr_FR": "~4.5.2",
-		"wpackagist-plugin/events-manager": "~5.6.0",
-		"wpackagist-plugin/contact-form-7": "~4.3.0",
-		"wpackagist-plugin/advanced-custom-fields-contact-form-7-field": "~1.1.0",
-		"wpackagist-plugin/all-in-one-seo-pack": "~2.3.4"
-	},
-	"extra": {
-		"installer-paths": {
-			"web/app/mu-plugins/{$name}/": [
-				"type:wordpress-muplugin"
-			],
-			"web/app/plugins/{$name}/": [
-				"type:wordpress-plugin"
-			],
-			"web/app/themes/{$name}/": [
-				"type:wordpress-theme"
-			]
-		},
-		"wordpress-install-dir": "web/wp",
-		"dropin-paths": {
-			"web/app/languages/": ["vendor:koodimonni-language"],
-			"web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
-			"web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
-		}
-	}
+  "name": "quai10/quai10-wordpress",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress setup for quai10.org",
+  "homepage": "https://quai10.org/",
+  "authors": [
+    {
+      "name": "Pierre Rudloff",
+      "email": "contact@rudloff.pro",
+      "homepage": "https://www.rudloff.pro/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/quai10/quai10-wordpress/issues",
+    "source": "https://github.com/quai10/quai10-wordpress",
+    "email": "webmaster@quai10.org"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://wp-languages.github.io/"
+    }
+  ],
+  "replace": {
+    "roots/bedrock": "*"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "require": {
+    "composer/installers": "~1.0.12",
+    "vlucas/phpdotenv": "~2.2.0",
+    "johnpbloch/wordpress": "~4.5.2",
+    "wpackagist-plugin/advanced-custom-fields": "~4.4.3",
+    "quai10/quai10-template": "~0.3.0",
+    "wpackagist-plugin/wordpress-importer": "~0.6.1",
+    "koodimonni-language/fr_FR": "~4.5.2",
+    "wpackagist-plugin/events-manager": "~5.6.0",
+    "wpackagist-plugin/contact-form-7": "~4.3.0",
+    "wpackagist-plugin/advanced-custom-fields-contact-form-7-field": "~1.1.0",
+    "wpackagist-plugin/all-in-one-seo-pack": "~2.3.4"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    },
+    "wordpress-install-dir": "web/wp",
+    "dropin-paths": {
+      "web/app/languages/": [
+        "vendor:koodimonni-language"
+      ],
+      "web/app/languages/plugins/": [
+        "vendor:koodimonni-plugin-language"
+      ],
+      "web/app/languages/themes/": [
+        "vendor:koodimonni-theme-language"
+      ]
+    }
+  }
 }
