@@ -7,6 +7,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('shipit-git-update');
     grunt.loadNpmTasks('shipit-composer-simple');
     grunt.loadNpmTasks('grunt-jsonlint');
+    grunt.loadNpmTasks('grunt-fixpack');
 
     grunt.initConfig({
         jslint: {
@@ -37,10 +38,15 @@ module.exports = function (grunt) {
                 deployTo: '/home/quai10/public_html/wordpress/',
                 branch: 'master'
             }
+        },
+        fixpack: {
+            package: {
+                src: 'package.json'
+            }
         }
     });
 
-    grunt.registerTask('lint', ['jslint', 'jsonlint']);
+    grunt.registerTask('lint', ['jslint', 'fixpack', 'jsonlint']);
     grunt.registerTask('staging', ['shipit:staging', 'update', 'composer:install']);
     grunt.registerTask('prod', ['shipit:prod', 'update', 'composer:install']);
 };
