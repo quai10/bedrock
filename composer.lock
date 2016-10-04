@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6be26e83503247ab0d37b22b0d19fb23",
-    "content-hash": "35f21691c7bb35aefb0991ca4184475b",
+    "hash": "feb3b8191ffb3ff83012d08f97a06724",
+    "content-hash": "4f4389276a3ab70592bfc50e92166b36",
     "packages": [
         {
             "name": "composer/installers",
@@ -560,6 +560,39 @@
             "time": "2016-10-04 22:43:54"
         },
         {
+            "name": "strasweb/events-manager-osm",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StrasWeb/events-manager-osm.git",
+                "reference": "683093d9bc1008b501869f28ba5b8a26d181023d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StrasWeb/events-manager-osm/zipball/683093d9bc1008b501869f28ba5b8a26d181023d",
+                "reference": "683093d9bc1008b501869f28ba5b8a26d181023d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "10up/wp_mock": "~0.1.0",
+                "phpunit/phpunit": "~5.5.2",
+                "squizlabs/php_codesniffer": "~2.6.2",
+                "symfony/var-dumper": "~3.1.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "EventsManagerOsm\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Use OpenStreetMap in WordPress Events Manager",
+            "time": "2016-10-04 22:42:29"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -734,7 +767,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "quai10/quai10-template": 20
+        "quai10/quai10-template": 20,
+        "strasweb/events-manager-osm": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
