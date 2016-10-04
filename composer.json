@@ -44,7 +44,7 @@
     "wpackagist-plugin/contact-form-7": "~4.5.1",
     "wpackagist-plugin/advanced-custom-fields-contact-form-7-field": "~1.1.0",
     "wpackagist-plugin/all-in-one-seo-pack": "~2.3.4",
-    "strasweb/events-manager-osm": "dev-develop"
+    "strasweb/events-manager-osm": "~0.2.1"
   },
   "extra": {
     "installer-paths": {

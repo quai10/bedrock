@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "feb3b8191ffb3ff83012d08f97a06724",
-    "content-hash": "4f4389276a3ab70592bfc50e92166b36",
+    "hash": "ee6dad1754dbd1da9cacdb6ecdd9c15e",
+    "content-hash": "3e23f8418a37528d964ccff8adbb215f",
     "packages": [
         {
             "name": "composer/installers",
@@ -561,16 +561,16 @@
         },
         {
             "name": "strasweb/events-manager-osm",
-            "version": "dev-develop",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StrasWeb/events-manager-osm.git",
-                "reference": "669f438c3b71a2de0210abc2a308ef14ffcf7142"
+                "reference": "77f8feb8e1adfaac0e5fb989fb34a7282014e4cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StrasWeb/events-manager-osm/zipball/669f438c3b71a2de0210abc2a308ef14ffcf7142",
-                "reference": "669f438c3b71a2de0210abc2a308ef14ffcf7142",
+                "url": "https://api.github.com/repos/StrasWeb/events-manager-osm/zipball/77f8feb8e1adfaac0e5fb989fb34a7282014e4cc",
+                "reference": "77f8feb8e1adfaac0e5fb989fb34a7282014e4cc",
                 "shasum": ""
             },
             "require-dev": {
@@ -590,7 +590,7 @@
                 "GPL-2.0"
             ],
             "description": "Use OpenStreetMap in WordPress Events Manager",
-            "time": "2016-10-04 22:55:28"
+            "time": "2016-10-04 23:12:04"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -767,8 +767,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "quai10/quai10-template": 20,
-        "strasweb/events-manager-osm": 20
+        "quai10/quai10-template": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
