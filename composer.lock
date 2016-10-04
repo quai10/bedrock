@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "765be1bf0ad19d0a56f2eb7ea36bdcd4",
-    "content-hash": "4ffa6ef60576f92b6ac5d106530dac9b",
+    "hash": "0d05d87ac7a160d802adf4e1647b877f",
+    "content-hash": "8b47372b593a4b53b2f0a1ef1a1e0a65",
     "packages": [
         {
             "name": "composer/installers",
@@ -116,16 +116,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.4",
+            "version": "4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b40963ace67a277425f5214ce64a7aba631cf758"
+                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b40963ace67a277425f5214ce64a7aba631cf758",
-                "reference": "b40963ace67a277425f5214ce64a7aba631cf758",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
+                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
                 "shasum": ""
             },
             "require": {
@@ -149,7 +149,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-09-07 15:01:42"
+            "time": "2016-09-07 15:01:47"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -201,10 +201,10 @@
         },
         {
             "name": "koodimonni-language/fr_fr",
-            "version": "4.5.4",
+            "version": "4.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.5.4/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.6.1/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
