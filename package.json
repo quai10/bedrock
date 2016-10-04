@@ -1,12 +1,27 @@
 {
-	"name": "quai10-wordpress",
-	"repository": "https://github.com/quai10/quai10-wordpress.git",
-	"license": "MIT",
-	"devDependencies": {
-		"grunt": "~1.0.1",
-		"grunt-jslint": "~1.1.14",
-		"grunt-shipit": "~1.0.0",
-		"shipit-git-update": "~0.1.0",
-		"shipit-composer-simple": "~0.1.0"
-	}
+  "name": "quai10-wordpress",
+  "description": "WordPress setup for quai10.org",
+  "version": "0.1.15",
+  "author": "Quai n°10",
+  "bugs": "https://github.com/quai10/quai10-wordpress/issues",
+  "contributors": [
+    "Pierre Rudloff"
+  ],
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-fixpack": "~0.1.0",
+    "grunt-jslint": "~1.1.14",
+    "grunt-jsonlint": "~1.1.0",
+    "grunt-shipit": "~1.0.0",
+    "shipit-composer-simple": "~0.1.0",
+    "shipit-git-update": "~0.1.0"
+  },
+  "homepage": "https://quai10.org/",
+  "keywords": [
+    "composer",
+    "wordpress"
+  ],
+  "license": "MIT",
+  "main": "web/index.php",
+  "repository": "https://github.com/quai10/quai10-wordpress.git"
 }
