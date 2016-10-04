@@ -511,12 +511,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "1b5e3fe8b83901a6917c446ecf8054037248815e"
+                "reference": "505c8f95f69bba55b714e29de69ab42d583c4404"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/1b5e3fe8b83901a6917c446ecf8054037248815e",
-                "reference": "1b5e3fe8b83901a6917c446ecf8054037248815e",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/505c8f95f69bba55b714e29de69ab42d583c4404",
+                "reference": "505c8f95f69bba55b714e29de69ab42d583c4404",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-10-04 22:00:51"
+            "time": "2016-10-04 22:43:54"
         },
         {
             "name": "vlucas/phpdotenv",
