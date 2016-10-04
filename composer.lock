@@ -565,12 +565,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StrasWeb/events-manager-osm.git",
-                "reference": "683093d9bc1008b501869f28ba5b8a26d181023d"
+                "reference": "669f438c3b71a2de0210abc2a308ef14ffcf7142"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StrasWeb/events-manager-osm/zipball/683093d9bc1008b501869f28ba5b8a26d181023d",
-                "reference": "683093d9bc1008b501869f28ba5b8a26d181023d",
+                "url": "https://api.github.com/repos/StrasWeb/events-manager-osm/zipball/669f438c3b71a2de0210abc2a308ef14ffcf7142",
+                "reference": "669f438c3b71a2de0210abc2a308ef14ffcf7142",
                 "shasum": ""
             },
             "require-dev": {
@@ -590,7 +590,7 @@
                 "GPL-2.0"
             ],
             "description": "Use OpenStreetMap in WordPress Events Manager",
-            "time": "2016-10-04 22:42:29"
+            "time": "2016-10-04 22:55:28"
         },
         {
             "name": "vlucas/phpdotenv",
