@@ -33,11 +33,11 @@
     "preferred-install": "dist"
   },
   "require": {
-    "composer/installers": "~1.0.12",
+    "composer/installers": "~1.2.0",
     "vlucas/phpdotenv": "~2.2.0",
     "johnpbloch/wordpress": "~4.5.2",
     "wpackagist-plugin/advanced-custom-fields": "~4.4.3",
-    "quai10/quai10-template": "~0.3.0",
+    "quai10/quai10-template": "~0.3.2",
     "wpackagist-plugin/wordpress-importer": "~0.6.1",
     "koodimonni-language/fr_FR": "~4.5.2",
     "wpackagist-plugin/events-manager": "~5.6.0",

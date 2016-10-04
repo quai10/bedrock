@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "55509f8719bf9039f8bcf2a6b90a04e2",
-    "content-hash": "b60937af4dd2940964ffc4e750cb83e9",
+    "hash": "765be1bf0ad19d0a56f2eb7ea36bdcd4",
+    "content-hash": "4ffa6ef60576f92b6ac5d106530dac9b",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.25",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804",
                 "shasum": ""
             },
             "require": {
@@ -65,21 +65,26 @@
                 "MODX Evo",
                 "Mautic",
                 "OXID",
+                "Plentymarkets",
+                "RadPHP",
                 "SMF",
                 "Thelia",
                 "WolfCMS",
                 "agl",
                 "aimeos",
                 "annotatecms",
+                "attogram",
                 "bitrix",
                 "cakephp",
                 "chef",
+                "cockpit",
                 "codeigniter",
                 "concrete5",
                 "croogo",
                 "dokuwiki",
                 "drupal",
                 "elgg",
+                "expressionengine",
                 "fuelphp",
                 "grav",
                 "installer",
@@ -96,16 +101,18 @@
                 "piwik",
                 "ppi",
                 "puppet",
+                "reindex",
                 "roundcube",
                 "shopware",
                 "silverstripe",
                 "symfony",
                 "typo3",
                 "wordpress",
+                "yawik",
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-08-13 20:53:52"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -500,22 +507,25 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "f2971d2115b6393be0bdfc85ecab571712b1b6fe"
+                "reference": "bc7a21c0257e8de7d2e709f40d9d6c1c4ac273bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/f2971d2115b6393be0bdfc85ecab571712b1b6fe",
-                "reference": "f2971d2115b6393be0bdfc85ecab571712b1b6fe",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/bc7a21c0257e8de7d2e709f40d9d6c1c4ac273bc",
+                "reference": "bc7a21c0257e8de7d2e709f40d9d6c1c4ac273bc",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.21"
+                "composer/installers": "~1.2.0"
             },
             "require-dev": {
+                "mockery/mockery": "~0.9.5",
+                "phpunit/phpunit": "~5.5.2",
+                "squizlabs/php_codesniffer": "~2.6.2",
                 "symfony/var-dumper": "~3.1.0"
             },
             "type": "wordpress-theme",
@@ -546,7 +556,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-08-04 12:09:05"
+            "time": "2016-10-04 15:58:23"
         },
         {
             "name": "vlucas/phpdotenv",
