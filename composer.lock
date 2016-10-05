@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "765be1bf0ad19d0a56f2eb7ea36bdcd4",
-    "content-hash": "4ffa6ef60576f92b6ac5d106530dac9b",
+    "hash": "12c535beb985c82709ded96aa450db7a",
+    "content-hash": "f5bce8b2b0565732cca8eaa1e713778f",
     "packages": [
         {
             "name": "composer/installers",
@@ -116,16 +116,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.4",
+            "version": "4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b40963ace67a277425f5214ce64a7aba631cf758"
+                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b40963ace67a277425f5214ce64a7aba631cf758",
-                "reference": "b40963ace67a277425f5214ce64a7aba631cf758",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
+                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
                 "shasum": ""
             },
             "require": {
@@ -149,7 +149,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-09-07 15:01:42"
+            "time": "2016-09-07 15:01:47"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -201,10 +201,10 @@
         },
         {
             "name": "koodimonni-language/fr_fr",
-            "version": "4.5.4",
+            "version": "4.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.5.4/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.6.1/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -507,22 +507,23 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "bc7a21c0257e8de7d2e709f40d9d6c1c4ac273bc"
+                "reference": "74853c3a57d82ccf4c8e97d104614e6c6661628c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/bc7a21c0257e8de7d2e709f40d9d6c1c4ac273bc",
-                "reference": "bc7a21c0257e8de7d2e709f40d9d6c1c4ac273bc",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/74853c3a57d82ccf4c8e97d104614e6c6661628c",
+                "reference": "74853c3a57d82ccf4c8e97d104614e6c6661628c",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.2.0"
             },
             "require-dev": {
+                "10up/wp_mock": "~0.1.0",
                 "mockery/mockery": "~0.9.5",
                 "phpunit/phpunit": "~5.5.2",
                 "squizlabs/php_codesniffer": "~2.6.2",
@@ -556,20 +557,53 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-10-04 15:58:23"
+            "time": "2016-10-05 16:42:43"
         },
         {
-            "name": "vlucas/phpdotenv",
-            "version": "v2.2.1",
+            "name": "strasweb/events-manager-osm",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "63f37b9395e8041cd4313129c08ece896d06ca8e"
+                "url": "https://github.com/StrasWeb/events-manager-osm.git",
+                "reference": "77f8feb8e1adfaac0e5fb989fb34a7282014e4cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/63f37b9395e8041cd4313129c08ece896d06ca8e",
-                "reference": "63f37b9395e8041cd4313129c08ece896d06ca8e",
+                "url": "https://api.github.com/repos/StrasWeb/events-manager-osm/zipball/77f8feb8e1adfaac0e5fb989fb34a7282014e4cc",
+                "reference": "77f8feb8e1adfaac0e5fb989fb34a7282014e4cc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "10up/wp_mock": "~0.1.0",
+                "phpunit/phpunit": "~5.5.2",
+                "squizlabs/php_codesniffer": "~2.6.2",
+                "symfony/var-dumper": "~3.1.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "EventsManagerOsm\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Use OpenStreetMap in WordPress Events Manager",
+            "time": "2016-10-04 23:12:04"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
                 "shasum": ""
             },
             "require": {
@@ -581,7 +615,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -606,7 +640,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-04-15 10:48:49"
+            "time": "2016-09-01 10:05:43"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -670,15 +704,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.3.1",
+            "version": "4.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.3.1"
+                "reference": "tags/4.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.5.1.zip",
                 "reference": null,
                 "shasum": null
             },
