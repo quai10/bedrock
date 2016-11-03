@@ -276,10 +276,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "2.6.4",
+            "version": "2.6.7",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.4/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.7/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -465,16 +465,16 @@
         },
         {
             "name": "koodimonni/composer-dropin-installer",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
-                "reference": "1903a3a1e981a783618aad9e322a12ad39ad1760"
+                "reference": "e8fcc1862926f4587a137edf240b1e3741f98e7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/1903a3a1e981a783618aad9e322a12ad39ad1760",
-                "reference": "1903a3a1e981a783618aad9e322a12ad39ad1760",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/e8fcc1862926f4587a137edf240b1e3741f98e7a",
+                "reference": "e8fcc1862926f4587a137edf240b1e3741f98e7a",
                 "shasum": ""
             },
             "require": {
@@ -499,11 +499,12 @@
             "authors": [
                 {
                     "name": "Onni Hakala",
-                    "email": "onni@koodimonni.fi"
+                    "email": "onni@koodimonni.fi",
+                    "role": "Developer"
                 }
             ],
-            "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2016-07-11 09:21:59"
+            "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
+            "time": "2016-10-30 19:22:35"
         },
         {
             "name": "quai10/quai10-template",
@@ -644,15 +645,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.10",
+            "version": "4.4.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.10"
+                "reference": "tags/4.4.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -684,15 +685,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.9.2",
+            "version": "2.3.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.9.2"
+                "reference": "tags/2.3.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.9.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.zip",
                 "reference": null,
                 "shasum": null
             },
