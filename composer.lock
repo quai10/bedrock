@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "12c535beb985c82709ded96aa450db7a",
-    "content-hash": "f5bce8b2b0565732cca8eaa1e713778f",
+    "hash": "6dcbebae80ee8d78861987cdcecb361d",
+    "content-hash": "6514c793ac284e9f5d99b23c1e9b807f",
     "packages": [
         {
             "name": "composer/installers",
@@ -116,16 +116,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.6.1",
+            "version": "4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3"
+                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
-                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b327faa6feea3a4058178dee7ac8b512bd957e92",
+                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92",
                 "shasum": ""
             },
             "require": {
@@ -149,7 +149,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-09-07 15:01:47"
+            "time": "2016-12-06 18:46:46"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -255,10 +255,10 @@
         },
         {
             "name": "koodimonni-plugin-language/bbpress-fr_fr",
-            "version": "2.5.10",
+            "version": "2.5.11",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/bbpress/2.5.10/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/bbpress/2.5.11/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -276,10 +276,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "2.6.7",
+            "version": "2.6.8",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.7/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.8/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -508,16 +508,16 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "0.3.3",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "74853c3a57d82ccf4c8e97d104614e6c6661628c"
+                "reference": "144bcb5f662f2589fb63e15455813a7bd4d0a01c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/74853c3a57d82ccf4c8e97d104614e6c6661628c",
-                "reference": "74853c3a57d82ccf4c8e97d104614e6c6661628c",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/144bcb5f662f2589fb63e15455813a7bd4d0a01c",
+                "reference": "144bcb5f662f2589fb63e15455813a7bd4d0a01c",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +558,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-10-05 16:42:43"
+            "time": "2016-12-08 14:19:41"
         },
         {
             "name": "strasweb/events-manager-osm",
@@ -685,15 +685,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.11",
+            "version": "2.3.11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.11"
+                "reference": "tags/2.3.11.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -705,15 +705,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.5.1",
+            "version": "4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.5.1"
+                "reference": "tags/4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.5.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -767,7 +767,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "quai10/quai10-template": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -35,13 +35,13 @@
   "require": {
     "composer/installers": "~1.2.0",
     "vlucas/phpdotenv": "~2.4.0",
-    "johnpbloch/wordpress": "~4.6.1",
+    "johnpbloch/wordpress": "~4.7.0",
     "wpackagist-plugin/advanced-custom-fields": "~4.4.3",
-    "quai10/quai10-template": "~0.3.3",
+    "quai10/quai10-template": "dev-develop",
     "wpackagist-plugin/wordpress-importer": "~0.6.1",
     "koodimonni-language/fr_FR": "~4.6.1",
     "wpackagist-plugin/events-manager": "~5.6.0",
-    "wpackagist-plugin/contact-form-7": "~4.5.1",
+    "wpackagist-plugin/contact-form-7": "~4.6.0",
     "wpackagist-plugin/advanced-custom-fields-contact-form-7-field": "~1.1.0",
     "wpackagist-plugin/all-in-one-seo-pack": "~2.3.4",
     "strasweb/events-manager-osm": "~0.2.1"
