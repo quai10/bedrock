@@ -255,10 +255,10 @@
         },
         {
             "name": "koodimonni-plugin-language/bbpress-fr_fr",
-            "version": "2.5.11",
+            "version": "2.5.12",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/bbpress/2.5.11/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/bbpress/2.5.12/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -276,10 +276,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "2.6.8",
+            "version": "2.6.11",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.8/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.11/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -339,10 +339,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentyfifteen-fr_fr",
-            "version": "1.6",
+            "version": "1.7",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentyfifteen/1.6/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfifteen/1.7/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -360,10 +360,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentyfourteen-fr_fr",
-            "version": "1.8",
+            "version": "1.9",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentyfourteen/1.8/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfourteen/1.9/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -423,10 +423,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentythirteen-fr_fr",
-            "version": "2.0",
+            "version": "2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentythirteen/2.0/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentythirteen/2.1/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -444,10 +444,10 @@
         },
         {
             "name": "koodimonni-theme-language/twentytwelve-fr_fr",
-            "version": "2.1",
+            "version": "2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/theme/twentytwelve/2.1/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwelve/2.2/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -512,12 +512,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "144bcb5f662f2589fb63e15455813a7bd4d0a01c"
+                "reference": "7d8e048d2319626ee08a25435a2158c64e22db44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/144bcb5f662f2589fb63e15455813a7bd4d0a01c",
-                "reference": "144bcb5f662f2589fb63e15455813a7bd4d0a01c",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/7d8e048d2319626ee08a25435a2158c64e22db44",
+                "reference": "7d8e048d2319626ee08a25435a2158c64e22db44",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +558,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-12-08 14:19:41"
+            "time": "2016-12-08 15:19:01"
         },
         {
             "name": "strasweb/events-manager-osm",
