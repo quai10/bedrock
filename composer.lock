@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6dcbebae80ee8d78861987cdcecb361d",
     "content-hash": "6514c793ac284e9f5d99b23c1e9b807f",
     "packages": [
         {
@@ -112,20 +111,20 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2016-08-13T20:53:52+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7",
+            "version": "4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92"
+                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b327faa6feea3a4058178dee7ac8b512bd957e92",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
+                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
                 "shasum": ""
             },
             "require": {
@@ -149,7 +148,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-12-06 18:46:46"
+            "time": "2017-01-11T17:46:47+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -197,14 +196,14 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11 15:15:30"
+            "time": "2015-06-11T15:15:30+00:00"
         },
         {
             "name": "koodimonni-language/fr_fr",
-            "version": "4.6.1",
+            "version": "4.6.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.6.1/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.6.2/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -276,10 +275,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "2.6.11",
+            "version": "2.6.12",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.11/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.12/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -465,16 +464,16 @@
         },
         {
             "name": "koodimonni/composer-dropin-installer",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
-                "reference": "e8fcc1862926f4587a137edf240b1e3741f98e7a"
+                "reference": "b09dd53d7bcbe41afec63bd142b17575935e2349"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/e8fcc1862926f4587a137edf240b1e3741f98e7a",
-                "reference": "e8fcc1862926f4587a137edf240b1e3741f98e7a",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/b09dd53d7bcbe41afec63bd142b17575935e2349",
+                "reference": "b09dd53d7bcbe41afec63bd142b17575935e2349",
                 "shasum": ""
             },
             "require": {
@@ -504,7 +503,7 @@
                 }
             ],
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
-            "time": "2016-10-30 19:22:35"
+            "time": "2017-01-11T19:10:05+00:00"
         },
         {
             "name": "quai10/quai10-template",
@@ -512,12 +511,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "7d8e048d2319626ee08a25435a2158c64e22db44"
+                "reference": "e38f51970cd14abc29c4f12d121d10dd196e4acd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/7d8e048d2319626ee08a25435a2158c64e22db44",
-                "reference": "7d8e048d2319626ee08a25435a2158c64e22db44",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/e38f51970cd14abc29c4f12d121d10dd196e4acd",
+                "reference": "e38f51970cd14abc29c4f12d121d10dd196e4acd",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +557,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2016-12-08 15:19:01"
+            "time": "2017-01-14 23:04:36"
         },
         {
             "name": "strasweb/events-manager-osm",
@@ -591,7 +590,7 @@
                 "GPL-2.0"
             ],
             "description": "Use OpenStreetMap in WordPress Events Manager",
-            "time": "2016-10-04 23:12:04"
+            "time": "2016-10-04T23:12:04+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -641,7 +640,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
