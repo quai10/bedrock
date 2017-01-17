@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "41e6d307ec242a0517a3af680561657d",
+    "content-hash": "91dde539b8d275c847bc94e55b36d2ac",
     "packages": [
         {
             "name": "composer/installers",
@@ -264,16 +264,16 @@
         },
         {
             "name": "quai10/quai10-template",
-            "version": "0.3.4",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quai10/quai10-template.git",
-                "reference": "4a0bc4249548e10bd9cba325849cdafad0b47e84"
+                "reference": "2d4c0be14f9bc2ebc6a7322bead23d0a4cc17618"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/4a0bc4249548e10bd9cba325849cdafad0b47e84",
-                "reference": "4a0bc4249548e10bd9cba325849cdafad0b47e84",
+                "url": "https://api.github.com/repos/quai10/quai10-template/zipball/2d4c0be14f9bc2ebc6a7322bead23d0a4cc17618",
+                "reference": "2d4c0be14f9bc2ebc6a7322bead23d0a4cc17618",
                 "shasum": ""
             },
             "require": {
@@ -314,7 +314,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-01-17T13:18:42+00:00"
+            "time": "2017-01-17 13:29:20"
         },
         {
             "name": "strasweb/events-manager-osm",
@@ -523,7 +523,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "quai10/quai10-template": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
