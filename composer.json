@@ -37,7 +37,7 @@
     "vlucas/phpdotenv": "~2.4.0",
     "johnpbloch/wordpress": "~4.7.0",
     "wpackagist-plugin/advanced-custom-fields": "~4.4.3",
-    "quai10/quai10-template": "dev-develop",
+    "quai10/quai10-template": "~0.3.6",
     "wpackagist-plugin/wordpress-importer": "~0.6.1",
     "koodimonni-language/core-fr_fr": "~4.7.0",
     "wpackagist-plugin/events-manager": "~5.6.0",
