@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "4c6e6f3988fc174b6a305117ffa74bc9",
     "content-hash": "4d5b77b8b9a9e2f4d7bf42a96cbfe1f5",
     "packages": [
         {
@@ -111,24 +112,62 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13T20:53:52+00:00"
+            "time": "2016-08-13 20:53:52"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7.3",
+            "version": "4.7.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a"
+                "reference": "ca36dbed576d21681efe92851f411ac2315a0ea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ca36dbed576d21681efe92851f411ac2315a0ea5",
+                "reference": "ca36dbed576d21681efe92851f411ac2315a0ea5",
                 "shasum": ""
             },
             "require": {
+                "johnpbloch/wordpress-core": "4.7.4.1",
                 "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-05-01 23:34:21"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.7.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "637b1c6e997b28bf8767e6c87611f869e12e246e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/637b1c6e997b28bf8767e6c87611f869e12e246e",
+                "reference": "637b1c6e997b28bf8767e6c87611f869e12e246e",
+                "shasum": ""
+            },
+            "require": {
                 "php": ">=5.3.2"
             },
             "type": "wordpress-core",
@@ -146,9 +185,10 @@
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
-                "cms"
+                "cms",
+                "wordpress"
             ],
-            "time": "2017-03-06T16:01:58+00:00"
+            "time": "2017-05-01 23:28:59"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -196,14 +236,14 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11T15:15:30+00:00"
+            "time": "2015-06-11 15:15:30"
         },
         {
             "name": "koodimonni-language/core-fr_fr",
-            "version": "4.7.3",
+            "version": "4.7.4",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.7.3/fr_FR.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.7.4/fr_FR.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -260,7 +300,7 @@
                 }
             ],
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
-            "time": "2017-01-11T19:10:05+00:00"
+            "time": "2017-01-11 19:10:05"
         },
         {
             "name": "quai10/quai10-template",
@@ -314,7 +354,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-03-10T15:21:13+00:00"
+            "time": "2017-03-10 15:21:13"
         },
         {
             "name": "strasweb/events-manager-osm",
@@ -347,7 +387,7 @@
                 "GPL-2.0"
             ],
             "description": "Use OpenStreetMap in WordPress Events Manager",
-            "time": "2016-10-04T23:12:04+00:00"
+            "time": "2016-10-04 23:12:04"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -397,7 +437,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01T10:05:43+00:00"
+            "time": "2016-09-01 10:05:43"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -421,15 +461,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields-contact-form-7-field",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields-contact-form-7-field/",
-                "reference": "tags/1.1.0"
+                "reference": "tags/1.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields-contact-form-7-field.1.1.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields-contact-form-7-field.1.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -441,15 +481,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.12",
+            "version": "2.3.12.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.12"
+                "reference": "tags/2.3.12.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.12.5.zip",
                 "reference": null,
                 "shasum": null
             },
