@@ -10,11 +10,11 @@
   "devDependencies": {
     "grunt": "~1.0.1",
     "grunt-fixpack": "~0.1.0",
-    "grunt-jslint": "~1.1.14",
+    "grunt-jslint": "^1.1.15",
     "grunt-jsonlint": "~1.1.0",
-    "grunt-shipit": "~1.0.0",
-    "shipit-composer-simple": "~0.1.0",
-    "shipit-git-update": "~0.1.0"
+    "grunt-shipit": "^1.0.1",
+    "shipit-composer-simple": "^0.1.1",
+    "shipit-git-update": "^0.1.4"
   },
   "homepage": "https://quai10.org/",
   "keywords": [
