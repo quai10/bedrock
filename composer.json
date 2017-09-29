@@ -41,7 +41,7 @@
     "koodimonni-language/core-fr_fr": "~4.8.2",
     "wpackagist-plugin/events-manager": "~5.7.3",
     "wpackagist-plugin/contact-form-7": "~4.9.0",
-    "wpackagist-plugin/all-in-one-seo-pack": "~2.3.4",
+    "wpackagist-plugin/all-in-one-seo-pack": "~2.4.0",
     "strasweb/events-manager-osm": "~0.2.1"
   },
   "extra": {

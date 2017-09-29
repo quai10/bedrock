@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d335ab61e0773abac5e11dec10babf1e",
-    "content-hash": "1a91c215cd60e4e9377df6232cce1bec",
+    "content-hash": "d8db63304af8a29a4a3bfe942541b683",
     "packages": [
         {
             "name": "composer/installers",
@@ -112,7 +111,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2016-08-13T20:53:52+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -151,7 +150,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-09-19 22:27:16"
+            "time": "2017-09-19T22:27:16+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
@@ -191,7 +190,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-09-19 22:27:11"
+            "time": "2017-09-19T22:27:11+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -240,7 +239,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-05-31 18:42:33"
+            "time": "2017-05-31T18:42:33+00:00"
         },
         {
             "name": "koodimonni-language/core-fr_fr",
@@ -304,7 +303,7 @@
                 }
             ],
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
-            "time": "2017-01-11 19:10:05"
+            "time": "2017-01-11T19:10:05+00:00"
         },
         {
             "name": "quai10/quai10-template",
@@ -358,7 +357,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2017-03-10 15:21:13"
+            "time": "2017-03-10T15:21:13+00:00"
         },
         {
             "name": "strasweb/events-manager-osm",
@@ -391,7 +390,7 @@
                 "GPL-2.0"
             ],
             "description": "Use OpenStreetMap in WordPress Events Manager",
-            "time": "2016-10-04 23:12:04"
+            "time": "2016-10-04T23:12:04+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -441,7 +440,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -465,15 +464,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
-            "version": "2.3.16",
+            "version": "2.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
-                "reference": "tags/2.3.16"
+                "reference": "tags/2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.16.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.4.zip",
                 "reference": null,
                 "shasum": null
             },
